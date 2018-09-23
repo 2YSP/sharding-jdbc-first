@@ -1,0 +1,12 @@
+server:
+  port: 8000
+spring:
+  jpa:
+    database: mysql
+    show-sql: true
+    hibernate:
+    ## 自己建表
+      ddl-auto: none
+  application:
+    name: sharding-jdbc-first
+
