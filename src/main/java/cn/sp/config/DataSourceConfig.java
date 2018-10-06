@@ -21,7 +21,7 @@ import java.util.Map;
  * Created by 2YSP on 2018/9/23.
  */
 @Configuration
-public class DateSourceConfig {
+public class DataSourceConfig {
     @Bean
     public IdGenerator getIdGenerator(){
         return new CommonSelfIdGenerator();
